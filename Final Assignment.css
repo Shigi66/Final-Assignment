@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#images {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lista li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.lista img {
+  width: 80px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.lista img:hover {
+  transform: scale(1.1);
+  border-color: #666;
+}
+
+.ulmi-dog img {
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
